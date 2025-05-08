@@ -47,3 +47,18 @@ a {
   text-decoration: none;
 }
 
+.skills_cards {
+  display: flex;
+  flex-direction: row;
+  gap: 13px;
+
+  width: 100%;
+  max-width: 270px;
+}
+
+.hero {
+  background-image: url(./asssets//img/Background.jpg);
+  max-width: 100%;
+  width: 1920px;
+  height: 800px;
+}
