@@ -53,9 +53,6 @@ a {
 }
 
 h1 {
-  width: 445px;
-  height: 60px;
-
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 700;
@@ -66,9 +63,6 @@ h1 {
 }
 
 p {
-  width: 570px;
-  height: 123px;
-
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
@@ -88,6 +82,21 @@ p {
   color: #000000;
 }
 
+.title_hero {
+  margin-top: 9px;
+  font-size: 48px;
+}
+
+.subtitle_hero p {
+  width: 245px;
+  height: 24px;
+
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #000000;
+}
+
 .hero {
   background-image: url(./asssets//img/Background.jpg);
   max-width: 100%;
@@ -99,6 +108,8 @@ p {
   display: flex;
   flex-direction: column-reverse;
   padding-top: 206px;
+  padding-bottom: 25px;
+  gap: 9px;
 }
 
 .hero_title h1 {
@@ -131,6 +142,31 @@ p {
 .about_btn_title {
   background: none;
   gap: 69px;
+}
+
+.about {
+  margin: 120px 0 120px 0;
+}
+
+.about_head {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.about_cards {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 50px;
+}
+
+.about_card {
+  width: 260px;
+  height: 116px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .skills_card {
