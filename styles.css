@@ -161,16 +161,35 @@ p {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  gap: 50px;
 }
 
 .about_card {
   width: 260px;
-  height: 116px;
 
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+}
+
+.achives_area {
+  display: flex;
+  gap: 135px;
+}
+
+.achives_title {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-content: center;
+}
+
+.achives_title h1 {
+  width: 365px;
+  font-size: 36px;
+}
+
+.achives_title p {
+  font-size: 16px;
 }
 
 .achieves_card {
@@ -178,15 +197,42 @@ p {
   flex-direction: column;
   align-items: flex-start;
   justify-content: left;
+  margin-top: 45px;
 
   width: 417px;
   height: 129px;
 }
 
+.achieves_card p {
+  width: 375px;
+  height: 78px;
+}
+
+.achieves_card h1 {
+  width: 168px;
+  font-size: 14px;
+}
+
+.achieves_card h2 {
+  width: 236px;
+  font-size: 12px;
+}
+
+.education h1 {
+  width: 141px;
+  font-size: 20px;
+}
+
+.education,
+.work_exp {
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+}
+
 .achieves_cards {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
 }
 
 .skills_card {
