@@ -171,12 +171,6 @@ p {
   align-items: flex-start;
 }
 
-.achives_area {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 135px;
-}
-
 .achives_title,
 .skills_title,
 .works_title {
@@ -223,13 +217,6 @@ p {
 
 .education h1 {
   font-size: 20px;
-}
-
-.education {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  align-items: start;
-  gap: 45px;
 }
 
 .achieves_cards {
