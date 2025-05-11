@@ -172,7 +172,8 @@ p {
 }
 
 .achives_area {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   gap: 135px;
 }
 
@@ -206,33 +207,28 @@ p {
   margin-top: 45px;
 
   width: 417px;
-  height: 129px;
 }
 
 .achieves_card p {
-  width: 375px;
-  height: 78px;
+  font-size: 12px;
 }
 
 .achieves_card h1 {
-  width: 168px;
   font-size: 14px;
 }
 
 .achieves_card h2 {
-  width: 236px;
   font-size: 12px;
 }
 
 .education h1 {
-  width: 141px;
   font-size: 20px;
 }
 
-.education,
-.work_exp {
-  display: flex;
-  flex-direction: column;
+.education {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: start;
   gap: 45px;
 }
 
@@ -242,9 +238,17 @@ p {
 }
 
 .skills_card {
+  max-width: 100%;
   width: 270px;
-  height: 270px;
   border: 1px black;
+}
+
+.skills_card h1 {
+  font-size: 14px;
+}
+
+.skills_card p {
+  font-size: 12px;
 }
 
 .skills_cards {
